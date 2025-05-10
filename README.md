@@ -36,9 +36,9 @@ This stage was designed, implemented, and validated as part of my hands-on learn
 ![Tcl Output – 5000 Cases](images/tcl.png)  
 *5000 tests passed.*
 
-### Waveform: Memory Read and Memory Write
+### Wave Output
 ![Waveform Example – Read](images/wave.png) 
-*The wave shows that what comes in comes out* 
+The wave shows that what comes in comes out
 ---
 ## 💡 Key Learnings
 - Learned how to organized signals for wave debugging
@@ -49,8 +49,8 @@ This stage was designed, implemented, and validated as part of my hands-on learn
 1. Launch **Vivado 2019.2** or later
 2. Create or open a project and add:
     - `src/*.vhd` (design files)
-    - `test_benches/tb_MEM_STAGE.vhd`
-3. Set `tb_MEM_STAGE.vhd` as the simulation top module
+    - `test_benches/tb_WB_STAGE.vhd`
+3. Set `tb_WB_STAGE.vhd` as the simulation top module
 4. Run Behavioral Simulation:
     - *Flow > Run Simulation > Run Behavioral Simulation*
 5. Increase simulation time if needed
