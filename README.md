@@ -3,7 +3,8 @@
 ## Overview
 This project implements the Write Back (WB) Stage of a 5-stage pipelined RISC-V CPU in VHDL. The WB stage receives the final 32-bit result selected by the MEM stage—either the ALU result, the loaded memory value, or zero—and passes it to the register file. It does not make any decisions; it simply forwards the input to the decoder stage for register write-back. A randomized testbench was used to validate that the input to the WB stage matches the output, confirming correct data propagation.
 This stage was designed, implemented, and validated as part of my hands-on learning in pipelined CPU architecture.
----
+
+
 ## Features
 - Receives 32-bit result from MEM stage (ALU result, memory load, or zero)
 - Forwards result directly to register file for write-back
